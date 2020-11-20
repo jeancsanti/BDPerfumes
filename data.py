@@ -5,9 +5,9 @@ banco = sqlite3.connect(path + r"\BDPerfumes.db")
 cursor = banco.cursor()
 
 #Perfumes
-cursor.execute("INSERT INTO Perfumes VALUES (1, 'Malbec', '100', '0001', '001', '01')")
-cursor.execute("INSERT INTO Perfumes VALUES (2, 'Kaiak', '100', '0002', '002', '02')")
-cursor.execute("INSERT INTO Perfumes VALUES (3, 'Una', '200', '0003', '003', '03')")
+cursor.execute("INSERT INTO Perfumes VALUES (1, 'Malbec', '1', '1', '1', '1')")
+#cursor.execute("INSERT INTO Perfumes VALUES (2, 'Kaiak', '1', '2', '2', '2')")
+#cursor.execute("INSERT INTO Perfumes VALUES (3, 'Una', '1', '3', '3', '3')")
 
 #Volumes
 cursor.execute("INSERT INTO Volumes VALUES(1, 'ml')")
